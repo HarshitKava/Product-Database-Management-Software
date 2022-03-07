@@ -5,7 +5,7 @@
 	$Provider = $_POST['addmatprov'];
 
 	// Database connection
-	$conn = new mysqli('localhost','root','Harshit','se_project');
+	$conn = new mysqli('localhost','root','','se_project');
 	if($conn->connect_error){
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
