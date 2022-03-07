@@ -1,0 +1,100 @@
+body{
+/*background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,121,1) 100%, rgba(0,212,255,1) 100%);*/
+background: rgb(0,19,36);
+background: linear-gradient(90deg, rgba(0,19,36,1) 0%, rgba(9,93,121,1) 100%, rgba(0,255,216,1) 100%);
+}
+.head1{
+  font-family: 'Rouge Script', cursive;
+  color:rgb(235, 216, 141);
+  text-align: center;
+  margin: 0;
+  font-size: 550%;
+  
+}
+div{
+  height: 75%;
+  width: 90%;
+  position: absolute;
+  top: 18%;
+  left: 4.5%;
+}
+img{
+  height: 20%;
+}
+h3{
+  width: 30%;
+  color: aliceblue;
+  text-align: center;
+}
+
+.bgi1{
+  position: absolute;
+  top: 17%;
+  left: 17%;
+}
+.bgi2{
+  position: absolute;
+  top: 17%;
+  left: 37%;
+}
+.bgi3{
+  position: absolute;
+  top: 17%;
+  left: 57%;
+}
+.bgi4{
+  position: absolute;
+  top: 17%;
+  left: 77%;
+}
+.bgi5{
+  position: absolute;
+  top: 61%;
+  left: 27%;
+}
+.bgi6{
+  position: absolute;
+  top: 60%;
+  left: 47%;
+}
+.bgi7{
+  position: absolute;
+  top: 60%;
+  left: 67%;
+}
+.product{
+  position: absolute;
+  top:  37%;
+  left: 6%;
+}
+.cate{
+  position: absolute;
+  top:  37%;
+  left: 26%;
+}
+.raw{
+  position: absolute;
+  top:  37%;
+  left: 46%;
+}
+.inv{
+  position: absolute;
+  top:  37%;
+  left: 66%;
+}
+.order{
+  position: absolute;
+  top:  79%;
+  left: 15.5%;
+}
+.cus{
+  position: absolute;
+  top:  80%;
+  left: 36%;
+}
+.pro{
+  position: absolute;
+  top:  80%;
+  left: 56%;
+}

@@ -1,0 +1,57 @@
+body{
+    /*background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,121,1) 100%, rgba(0,212,255,1) 100%);*/
+    background: rgb(0,19,36);
+    background: linear-gradient(90deg, rgba(0,19,36,1) 0%, rgba(9,93,121,1) 100%, rgba(0,255,216,1) 100%);
+    }
+table{
+    padding: 10px;
+    border: 2px solid white;
+    color: rgb(176, 215, 250);
+    
+}
+td{
+    padding: 10px;
+    border: 2px solid rgba(0, 255, 255, 0.432);
+    color: rgb(176, 215, 250);
+    
+}
+th{
+    padding: 10px;
+    border: 2px solid white;
+    color: rgb(176, 215, 250);
+}
+.head1{
+    font-family: 'Rouge Script', cursive;
+    color:rgb(235, 216, 141);
+    text-align: center;
+    margin: 0;
+    font-size: 550%;
+    
+  }
+.scrollit {
+    overflow:scroll;
+    height: 300px;
+    width: auto;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(8, 84, 87);
+    overflow-x: hidden;
+}
+.scrollit::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  .scrollit::-webkit-scrollbar-track {
+      padding-left: 2px;
+    background-color: #075863;
+    border-radius: 100px;
+  }
+  
+  .scrollit::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background-image: linear-gradient(180deg, #058a8f 0%, #00484b 99%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+  }
